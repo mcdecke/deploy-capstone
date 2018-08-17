@@ -28,7 +28,7 @@
     "web3": "^1.0.0-beta.34"
   },
   "scripts": {
-    "start": "NODE_ENV=production index.js",
+    "start": "NODE_ENV=production src/index.js",
     "postinstall": "next build",
     "build": "next build",
     "test": "mocha",
