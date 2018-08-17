@@ -3,7 +3,7 @@ import {Form, Button, Input, Message, Card} from 'semantic-ui-react'
 import Layout from '../../src/components/Layout'
 import factory from '../../src/ethereum/factory'
 import web3 from '../../src/ethereum/web3'
-import {Link, Router} from '../src/routes'
+import {Link, Router} from '../../src/routes'
 const CryptoJS = require("crypto-js")
 const toastr = require('toastr')
 

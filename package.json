@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "build": "react-scripts build",
+    "build": "next build",
     "test": "mocha",
     "eject": "react-scripts eject",
     "dev": "node src/index.js"
