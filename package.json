@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "postinstall": "next build",
     "build": "next build",
     "test": "mocha",
     "eject": "react-scripts eject",
